@@ -14,7 +14,7 @@ with col1:
     st.image(
         "images/intro_img.jpg",
         caption="...",
-        use_container_width=True
+        width="stretch"
     )
 with col2:
     st.title("LOVECARE FOR THE NEEDY FOUNDATION")
@@ -47,7 +47,7 @@ st.header("Our Core Initiatives")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/children.jpg", caption="...", use_container_width=True)
+    st.image("images/children.jpg", caption="...", width="stretch")
 with col2:
     st.subheader("📚 To Reach Orphans")
     st.write(f"""
@@ -57,7 +57,7 @@ with col2:
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/widow.jpg", caption="....", use_container_width=True)
+    st.image("images/widow.jpg", caption="....", width="stretch")
 with col2:
     st.subheader("🌾 To Reach old widows/widowers")
     st.write(f"""
@@ -67,7 +67,7 @@ with col2:
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/disabled.jpg", caption=".....", use_container_width=True)
+    st.image("images/disabled.jpg", caption=".....", width="stretch")
 with col2:
     st.subheader("🤕 To Reach the handicapped/disabled")
     st.write(f"""
